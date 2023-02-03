@@ -1,12 +1,12 @@
 from os import getenv
 import os
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH", "")
+API_ID = int(getenv("API_ID", "13691707"))
+API_HASH = getenv("API_HASH", "2a31b117896c5c7da27c74025aa602b8")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "5931250646:AAHE-bzL01nV8VzmwGtyg7VlSoohlGFkG_E")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://alpha:<password>@cluster0.zeiqsnj.mongodb.net/?retryWrites=true&w=majority")
 
 SUDO_USERS = getenv("SUDO_USERS", "").split()
 
